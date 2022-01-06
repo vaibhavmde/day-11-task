@@ -1,0 +1,19 @@
+body{
+    margin:20%;
+    margin-top: 5%;
+    text-align: center;
+    padding:0%;
+     
+}
+div{
+    background: rgb(127, 127, 226);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#button{
+    background-color: rgb(127, 127, 226);
+    border-radius: 20px;
+    border-color: blueviolet;
+    margin-bottom: 5%;  
+    padding: 2%;
+}

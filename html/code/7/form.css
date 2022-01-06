@@ -1,0 +1,56 @@
+body{
+  border: 10px solid black;
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  margin: 20%;
+  margin-top: 0px;
+  
+}
+#div{
+  padding-top: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  font-size: 30px;
+}
+.Header{
+    background-color: red;
+    text-align: center;
+    color:white;
+    padding: 2px;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+.subscribe-label {
+  display: block;
+  padding-left: 30px;
+  position: relative;
+  font-size: 30px;
+}
+
+.subscribe-label:before {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  content: '';
+  border: 1px solid black;
+  left: 0;
+}
+
+.subscribe-option:checked + .subscribe-label:before {
+  content: '\2713';
+  line-height: 15px;
+  text-align: center;
+}
+
+.subscribe-option {
+  position: absolute;
+  margin-left: -1000px;
+}
